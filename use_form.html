@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            background-color: crimson;
+            color: white;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10px;
+        }
+
+        input {
+            width: 50%;
+            background-color: darkslategrey;
+            color: white;
+            padding: 5px;
+        }
+
+        #sub {
+            width: 150px;
+        }
+        .check{
+            width:auto
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <label for="uname">enter your name</label>
+        <input type="text" name="uname" placeholder="enter a name"><br><br>
+
+        <label for="date">date of birth</label>
+        <input type="date" name="date" placeholder="enter a name"><br><br>
+
+        <h1>skills</h1>
+        <label for="skill1" class="check">HTML</label>
+        <input type="checkbox" name="skill1" value="html" class="check">
+
+
+        <label for="skill2" class="check">CSS</label>
+        <input type="checkbox" name="skill2" value="css" class="check">
+
+
+        <label for="skill3" class="check">JavaScript</label>
+        <input type="checkbox" name="skill3" value="javascript" class="check">
+
+
+
+        <label for="skill4" class="check">jquery</label>
+        <input type="checkbox" name="skill4" value="jquery" class="check"><br><br>
+
+        <h1>Gender</h1>
+
+        <label for="male" class="check">Male</label>
+        <input type="radio" name="gender" value="male" class="check" required>
+
+
+        <label for="female" class="check">Female</label>
+        <input type="radio" name="gender" value="female" class="check" required><br><br><br><br>
+
+        <select name="city">
+            <option selected>select your city</option>
+            <option  value="mumbai">mumbai</option>
+            <option value="jaypur">jaypur</option>
+            <option value="delhi">delhi</option>
+            <option value="lucknow">lucknow</option>
+        </select><br><br>
+
+
+
+        <!-- <select  multiple name="skillset" >
+            <option >select your skill</option>
+            <option  value="html" >Html</option>
+            <option value="css" >css</option>
+            <option value="javascript" >javascript</option>
+            <option value="ruby"  >ruby</option>
+        </select><br><br> -->
+
+        <textarea cols="10" rows="12" name="comment">comment here</textarea>
+
+
+
+        <br><br><br><input type="image" src="sub.jpg" id="sub">
+    </form>
+</body>
+
+</html>
