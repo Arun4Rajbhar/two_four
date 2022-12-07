@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        var arr = [112, 122, 22, 11, 'shubham', 22];
+        console.log(arr[3]);
+        console.log(arr[4]);
+
+
+        for (let i = 0; i < 6; i++) {
+            console.log(arr[i])
+        }
+
+        var arr1 = [12, 34, 33, 56, 22, 67, 65]
+
+        for (let a = 0; a < 7; a++) {
+            if (arr1[a] % 2 == 0) {
+                console.log(arr1[a]);
+            }
+        }
+
+
+        var num1 = 30;
+        var num2 = 12;
+        var high;
+
+        for (let i = 1; i <= num2; i++) {
+
+            if ((num1 % i == 0) && (num2 % i == 0)) {
+
+                high=i
+            }
+
+        }
+        console.log("hcf",high);
+
+        var arr3 = [12, 34, 33, 56, 22, 67, 65];
+
+        var sum=0;
+        
+        for(let i=0;i<7;i++){
+            sum+=arr3[i];
+        }
+        console.log(sum);
+
+
+    </script>
+</body>
+
+</html>
